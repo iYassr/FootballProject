@@ -1,0 +1,38 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+<div class='flash'>
+	{% with messages = get_flashed_messages() %}
+	{% if messages %}
+
+	<ul>
+		{% for message in messages %}
+		<li> <strong> {{ message }} </strong> </li>
+		{% endfor %}
+	</ul>
+	{% endif %}
+	{% endwith %}
+
+</div>
+
+<div class="row">
+	{% for club in clubs %}
+	<a href="{{url_for('showClub', club_id = club.id)}}">
+		<div class="card text-white mb-3 mx-3 my-4 d-flex align-items-center" style="width: 10rem; height: 10rem">
+			<img src="/static/{{club.name}}.png" onerror="this.src='/static/ClubLogo'"" style=" width:158.01px; height:
+			 158.01px" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title text-primary"> {{club.name}}</h5>
+			</div>
+		</div>
+	{% endfor %}
+		<a href="{{url_for('newClub')}}" class="text-warning">
+		<div class="card text-white mb-3 mx-3 mt-4 d-flex align-items-center bg-dark" style="width: 10rem; height: 10rem">
+			<div class="card-body">
+				<h5 class="card-title"> Add Club </h5>
+			</div>
+		</div>
+
+
+
+	{% endblock %}

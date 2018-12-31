@@ -1,0 +1,105 @@
+name,club,age,position,position_cat,market_value,page_views,fpl_value,fpl_sel,fpl_points,region,nationality,new_foreign,age_cat,club_id,big_club,new_signing
+Alexis Sanchez,1,28,LW,1,65,4329,12,17.10%,264,3,Chile,0,4,1,1,0
+Mesut Ozil,1,28,AM,1,50,4395,9.5,5.60%,167,2,Germany,0,4,1,1,0
+Petr Cech,1,35,GK,4,7,1529,5.5,5.90%,134,2,Czech Republic,0,6,1,1,0
+Theo Walcott,1,28,RW,1,20,2393,7.5,1.50%,122,1,England,0,4,1,1,0
+Laurent Koscielny,1,31,CB,3,22,912,6,0.70%,121,2,France,0,4,1,1,0
+Hector Bellerin,1,22,RB,3,30,1675,6,13.70%,119,2,Spain,0,2,1,1,0
+Olivier Giroud,1,30,CF,1,22,2230,8.5,2.50%,116,2,France,0,4,1,1,0
+Nacho Monreal,1,31,LB,3,13,555,5.5,4.70%,115,2,Spain,0,4,1,1,0
+Shkodran Mustafi,1,25,CB,3,30,1877,5.5,4.00%,90,2,Germany,0,3,1,1,1
+Alex Iwobi,1,21,LW,1,10,1812,5.5,1.00%,89,4,Nigeria,0,1,1,1,0
+Granit Xhaka,1,24,DM,2,35,1815,5.5,2.00%,85,2,Switzerland,0,2,1,1,0
+Alex Oxlade-Chamberlain,1,23,RM,2,22,1519,6,1.80%,83,1,England,0,2,1,1,0
+Jack Wilshere,1,25,CM,2,18,1759,5.5,0.00%,61,1,England,0,3,1,1,0
+Aaron Ramsey,1,26,CM,2,35,1040,7,5.10%,56,1,Wales,0,3,1,1,0
+Francis Coquelin,1,26,DM,2,15,549,4.5,1.70%,52,2,France,0,3,1,1,0
+Gabriel Paulista,1,26,CB,3,13,552,5,0.10%,45,3,Brazil,0,3,1,1,0
+Kieran Gibbs,1,27,LB,3,10,489,5,0.50%,45,1,England,0,3,1,1,0
+Santi Cazorla,1,32,CM,2,12,943,7,0.10%,38,2,Spain,0,5,1,1,0
+Danny Welbeck,1,26,CF,1,15,1521,7.5,0.50%,37,1,England,0,3,1,1,0
+Rob Holding,1,21,CB,3,7,666,5,1.70%,32,1,England,0,1,1,1,1
+Mohamed Elneny,1,25,DM,2,10,683,4.5,0.80%,26,4,Egypt,0,3,1,1,0
+Lucas Perez,1,28,CF,1,15,2055,7.5,0.10%,20,2,Spain,0,4,1,1,1
+Emiliano Martinez,1,24,GK,4,1,372,4,4.20%,8,3,Argentina,0,2,1,1,0
+David Ospina,1,28,GK,4,7,544,5,0.20%,2,3,Colombia,0,4,1,1,0
+Carl Jenkinson,1,25,RB,3,5,561,4.5,0.40%,2,1,England,0,3,1,1,0
+Per Mertesacker,1,32,CB,3,6,702,5,1.00%,1,2,Germany,0,5,1,1,0
+Sead Kolasinac,1,24,LB,3,15,618,6,6.90%,0,2,Bosnia,1,2,1,1,0
+Alexandre Lacazette,1,26,CF,1,40,1183,10.5,26.50%,0,2,France,1,3,1,1,0
+Eden Hazard,2,26,LW,1,75,4220,10.5,2.30%,224,2,Belgium,0,3,5,1,0
+Diego Costa,2,28,CF,1,50,4454,10,3.00%,196,2,Spain,0,4,5,1,0
+Gary Cahill,2,31,CB,3,16,1420,6.5,12.00%,178,1,England,0,4,5,1,0
+Marcos Alonso Mendoza,2,26,LB,3,25,3069,7,12.40%,177,2,Spain,0,3,5,1,1
+Cesar Azpilicueta,2,27,RB,3,30,869,6.5,12.30%,170,2,Spain,0,3,5,1,0
+Pedro,2,29,RW,1,28,1500,8,7.80%,162,2,Spain,0,4,5,1,0
+Thibaut Courtois,2,25,GK,4,40,1260,5.5,18.50%,141,2,Belgium,0,3,5,1,0
+David Luiz,2,30,CB,3,30,2745,6,20.30%,132,3,Brazil,0,4,5,1,0
+Cesc Fabregas,2,30,CM,2,35,2378,7,7.50%,121,2,Spain,0,4,5,1,0
+Willian,2,28,RW,1,32,1165,7,9.00%,114,3,Brazil,0,4,5,1,0
+Victor Moses,2,26,RM,2,18,2537,6.5,0.20%,105,4,Nigeria,0,3,5,1,0
+Nemanja Matic,2,28,DM,2,35,892,5,5.00%,105,2,Serbia,0,4,5,1,0
+N%27Golo Kante,2,26,DM,2,50,4042,5,13.80%,83,2,France,0,3,5,1,1
+Willy Caballero,2,35,GK,4,1.5,542,5,0.20%,64,3,Argentina,0,6,5,1,0
+Michy Batshuayi,2,23,CF,1,25,1162,8.5,1.60%,48,2,Belgium,0,2,5,1,1
+Kurt Zouma,2,22,CB,3,15,723,5.5,0.80%,15,2,France,0,2,5,1,0
+Kenedy,2,21,LB,3,7,566,5,0.10%,3,3,Brazil,0,1,5,1,0
+Eduardo Carvalho,2,34,LW,1,0.05,467,5,0.10%,0,2,Portugal,0,6,5,1,1
+Antonio Rudiger,2,24,CB,3,25,454,6,6.40%,0,2,Germany,1,2,5,1,0
+Tiemoue Bakayoko,2,22,DM,2,16,1011,5,1.60%,0,2,France,1,2,5,1,0
+Ross Barkley,3,23,AM,1,25,1413,7.5,0.70%,144,1,England,0,2,7,0,0
+Leighton Baines,3,32,LB,3,12,491,6,10.00%,135,1,England,0,5,7,0,0
+Seamus Coleman,3,28,RB,3,17,843,6.5,0.40%,133,2,Ireland,0,4,7,0,0
+Ashley Williams,3,32,CB,3,8,599,5.5,4.70%,127,2,Wales,0,5,7,0,1
+Kevin Mirallas,3,29,RW,1,13,417,6.5,3.20%,119,2,Belgium,0,4,7,0,0
+Michael Keane,3,24,CB,3,18,1362,5.5,13.10%,113,1,England,0,2,7,0,0
+Phil Jagielka,3,34,CB,3,2,566,5,6.30%,104,1,England,0,6,7,0,0
+Jordan Pickford,3,23,GK,4,15,719,5,14.60%,102,1,England,0,2,7,0,0
+Joel Robles,3,27,GK,4,5,304,4.5,0.40%,89,2,Spain,0,3,7,0,0
+Idrissa Gueye,3,27,CM,2,18,705,5,1.30%,80,4,Senegal,0,3,7,0,1
+Wayne Rooney,3,31,SS,1,15,7664,7.5,20.90%,76,1,England,0,4,7,0,0
+Ramiro Funes Mori,3,26,CB,3,12,460,5,0.10%,69,3,Argentina,0,3,7,0,0
+Maarten Stekelenburg,3,34,GK,4,2,623,4.5,0.30%,68,2,Netherlands,0,6,7,0,1
+Gareth Barry,3,36,DM,2,1.5,1331,4.5,1.70%,68,1,England,0,6,7,0,0
+Tom Davies,3,19,CM,2,8,1354,5.5,1.00%,63,1,England,0,1,7,0,0
+Mason Holgate,3,20,CB,3,5,344,4.5,2.90%,54,1,England,0,1,7,0,0
+Yannick Bolasie,3,28,LW,1,20,896,6.5,0.20%,45,4,Congo DR,0,4,7,0,1
+Morgan Schneiderlin,3,27,DM,2,22,1272,5,0.90%,37,2,France,0,3,7,0,1
+Cuco Martina,3,27,RB,3,2,232,4.5,0.40%,31,2,Curacao,0,3,7,0,0
+James McCarthy,3,26,CM,2,15,306,5,0.10%,23,2,Ireland,0,3,7,0,0
+Aaron Lennon,3,30,RW,1,5,504,5.5,0.20%,22,1,England,0,4,7,0,0
+Dominic Calvert-Lewin,3,20,SS,1,3.5,343,5,0.30%,17,1,England,0,1,7,0,1
+Ademola Lookman,3,19,LW,1,5,1387,5.5,0.30%,16,1,England,0,1,7,0,0
+Matthew Pennington,3,22,CB,3,0.5,219,4,1.70%,9,1,England,0,2,7,0,0
+Jonjoe Kenny,3,20,RB,3,0.25,53,4.5,0.20%,1,1,England,0,1,7,0,0
+Muhamed Besic,3,24,DM,2,5,238,4.5,0.20%,0,2,Germany,0,2,7,0,0
+Davy Klaassen,3,24,AM,1,18,428,7.5,3.60%,0,2,Netherlands,1,2,7,0,0
+Sandro Ramirez,3,22,CF,1,10,373,7.5,2.10%,0,2,Spain,1,2,7,0,0
+Joel Coleman,4,21,GK,4,0.25,36,4,2.40%,0,1,England,0,1,8,0,0
+Jonas Lossl,4,28,GK,4,1.5,56,4.5,0.50%,0,2,Denmark,0,4,8,0,0
+Christopher Schindler,4,27,CB,3,2,73,4.5,0.90%,0,2,Germany,0,3,8,0,0
+Chris Lowe,4,28,LB,3,1.5,84,4.5,0.70%,0,2,Germany,0,4,8,0,0
+Tommy Smith,4,25,RB,3,2,65,5,1.10%,0,1,England,0,3,8,0,0
+Michael Hefele,4,26,CB,3,1.5,116,4.5,0.20%,0,2,Germany,0,3,8,0,0
+Martin Cranie,4,30,CB,3,0.5,67,4,1.40%,0,1,England,0,4,8,0,0
+Jon Gorenc Stankovic,4,21,CB,3,0.5,83,4,1.10%,0,2,Slovenia,0,1,8,0,0
+Mark Hudson,4,35,CB,3,0.5,70,4,1.40%,0,1,England,0,6,8,0,0
+Mathias Jorgensen,4,27,CB,3,2.5,107,4.5,0.20%,0,2,Denmark,0,3,8,0,0
+Scott Malone,4,26,LB,3,0.75,81,4.5,0.10%,0,1,England,0,3,8,0,0
+Aaron Mooy,4,26,CM,2,5,588,5.5,2.50%,0,4,Australia,0,3,8,0,0
+Rajiv van La Parra,4,26,LW,1,2,174,5,0.30%,0,2,Netherlands,0,3,8,0,0
+Jonathan Hogg,4,28,CM,2,1,75,4.5,0.30%,0,1,England,0,4,8,0,0
+Philip Billing,4,21,CM,2,0.5,157,4.5,0.10%,0,2,Denmark,0,1,8,0,0
+Joe Lolley,4,24,RW,1,0.25,63,4.5,0.10%,0,1,England,0,2,8,0,0
+Jack Payne,4,25,CM,2,0.25,81,4.5,0.10%,0,1,England,0,3,8,0,0
+Dean Whitehead,4,35,CM,2,0.25,161,4.5,0.10%,0,1,England,0,6,8,0,0
+Harry Bunn,4,24,LW,1,0.5,85,4.5,0.10%,0,1,England,0,2,8,0,0
+Sean Scannell,4,26,RW,1,0.5,85,4.5,0.10%,0,2,Ireland,0,3,8,0,0
+Elias Kachunga,4,25,RW,1,3.5,231,6,0.60%,0,4,Congo DR,0,3,8,0,0
+Tom Ince,4,25,RW,1,7,512,6,2.60%,0,1,England,0,3,8,0,0
+Kasey Palmer,4,20,AM,1,0.75,220,5.5,0.20%,0,1,England,0,1,8,0,0
+Andy Williams,4,26,CB,3,0.65,3,5,0.10%,0,3,Trinidad and Tobago,0,3,8,0,0
+Nahki Wells,4,27,CF,1,5,247,5,0.60%,0,3,Bermuda,0,3,8,0,0
+Collin Quaner,4,26,CF,1,1,126,4.5,1.60%,0,2,Germany,0,3,8,0,0
+Laurent Depoitre,4,28,CF,1,3,212,5.5,0.30%,0,2,Belgium,0,4,8,0,0
+Steve Mounie,4,22,CF,1,5.5,56,6,0.60%,0,NA,Benin,0,2,8,0,0
