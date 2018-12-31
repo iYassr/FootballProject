@@ -32,7 +32,8 @@ $ vagrant up # wait until finished, it might take more that few minitus
 $ vagrant ssh # ssh to the already configured vm  
 $ cd /vagrant  
 ```
-    ### Running 
+
+### Running 
 ```
 $ vagrant ssh               # ssh to the already initilized vagrant instance
 $ cd /vagrant/FootballProject # cd into the projct folder
