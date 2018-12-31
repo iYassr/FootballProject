@@ -2,39 +2,14 @@
 {% block content %}
 {% include "header.html" %}
 
+
 <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img src="/static/club.name}}" width="30" height="30" alt="">
-  </a>
-		<a href="{{url_for('showClubs')}}">
-			<span class="glyphicon glyphicon-home" aria-hidden="true"></span>Show All Clubs
-		</a>
-					{%if 'username' not in session %}
-			<a href="{{url_for('showLogin')}}">Click Here to Login </a>
-			{% else %}
-			<a href="{{url_for('disconnect')}}">Logout </a>
-			{% endif %}
-		
+	<a class="navbar-brand" href="#">
+		<img src="/static/{{club.name}}.png"  onerror="this.src='/static/ClubLogo'" width="80" height="80" alt=""></a>
+		<span class="glyphicon glyphicon-home" aria-hidden="true"></span><h1> {{club.name}}</h1>
 
 </nav>
 
-
-
-
-<div class="row divider green">
-	<div class="col-md-12"></div>
-</div>
-<div class="row banner menu">
-	<div class="col-md-11 col-md-offset-1 padding-none">
-		<h1>{{ club.name }}
-			<figure class="creator">
-				<img src={{creator.picture}} , onerror="this.src='{{ url_for("static", filename='blank_user.gif') }}'">
-				<figcaption>{{creator.name}}</figcaption>
-			</figure>
-		</h1>
-
-	</div>
-</div>
 
 <a href={{ url_for('newPlayer', club_id=club.id) }}>New Player</a>
 <a href={{ url_for('deleteClub', club_id=club.id) }}>Delete Club</a>
