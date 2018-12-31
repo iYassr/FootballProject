@@ -24,7 +24,7 @@ data = pd.read_csv('data.csv')
 # Create dummy user
 
 User1 = User(name="Yasser", email="Yasserd@gmail.com",
-             picture='https://pbs.twimg.com/profile_images/2671170543/18debd694829ed78203a5a36dd364160_400x400.png')
+             picture='http://museumsassn.bc.ca/wp-content/uploads/2018/01/BCMA-Avatar-400px.png')
 session.add(User1)
 session.commit()
 
