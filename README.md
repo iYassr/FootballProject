@@ -42,6 +42,10 @@ $ python3 project.py           # run the program
 
 
 ### ScreenShots
+![Alt text](screenshot1.png?raw=true "Title")
+![Alt text](screenshot2.png?raw=true "Title")
+
+
 
 
 ## JSON API Endpoints 
