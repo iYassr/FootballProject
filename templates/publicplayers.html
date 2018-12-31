@@ -12,7 +12,8 @@
 <nav class="navbar navbar-light bg-light">
 	<a class="navbar-brand" href="#">
 		<img src="/static/{{club.name}}.png" onerror="this.src='/static/ClubLogo'" width="80" height="80" alt=""></a>
-		<span class="glyphicon glyphicon-home" aria-hidden="true"></span><h1> {{club.name}}</h1>
+	<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+	<h1> {{club.name}}</h1>
 
 </nav>
 
@@ -31,34 +32,34 @@
 </div>
 {% if players !=[] %}
 
-		<table class="table table-hover table-striped" width='100%'>
-			<thead class="thead-dark">
-				<tr>
-					<th scope="col">#</th>
-					<th scope="col">Name</th>
-					<th scope="col">Age</th>
-					<th scope="col">Nationality</th>
-					<th scope="col">Market Value (Million)</th>
-					<th scope="col">Position</th>
+<table class="table table-hover table-striped" width='100%'>
+	<thead class="thead-dark">
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">Name</th>
+			<th scope="col">Age</th>
+			<th scope="col">Nationality</th>
+			<th scope="col">Market Value (Million)</th>
+			<th scope="col">Position</th>
 
-				</tr>
-			</thead>
-			<tbody>
+		</tr>
+	</thead>
+	<tbody>
 
-				{% for player in players %}
+		{% for player in players %}
 
-				<tr>
-					<th scope="row">{{loop.index}}</th>
-					<td>{{player.name}}</td>
-					<td>{{player.age}}</td>
-					<td>{{player.nationality}} <img src='/static/{{player.nationality}}.png' </td> <td>{{player.market_value}}$</td>
-					<td>{% if player.position == '1' %} Forward {% elif player.position == '2' %} Midfielder {% elif player.position
-						== '3' %} Defender {% elif player.position == '4' %} Goal Keeper {% endif %}</td>
-				</tr>
-				{% endfor %}
+		<tr>
+			<th scope="row">{{loop.index}}</th>
+			<td>{{player.name}}</td>
+			<td>{{player.age}}</td>
+			<td><img src='/static/{{player.nationality}}.png' onerror="this.src='/static/random_flag.png'" width="20px" height="12px" > </td> <td>{{player.market_value}}$</td>
+			<td>{% if player.position == '1' %} Forward {% elif player.position == '2' %} Midfielder {% elif player.position
+				== '3' %} Defender {% elif player.position == '4' %} Goal Keeper {% endif %}</td>
+		</tr>
+		{% endfor %}
 
-			</tbody>
-		</table>
+	</tbody>
+</table>
 
 
 {% endif %}
@@ -66,7 +67,7 @@
 
 <nav class="navbar navbar-light bg-light">
 	<a class="navbar-brand" href="#">
-			By <img src="{{ creator.picture}}" style="width:30px;height:30px" alt="">
+		By <img src="{{ creator.picture}}" style="width:30px;height:30px" alt="">
 		{{ creator.name }}
 </nav>
 
