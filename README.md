@@ -1,6 +1,8 @@
 # Football Clubs
 
-This website is part of Udacity FSND. 
+An inventory of Football club players, where you can add,edit, remove players, and clubs as well. 
+This website is part of Udacity FSND.
+
 
 ## Getting Started
 
@@ -44,8 +46,6 @@ $ python3 project.py           # run the program
 ### ScreenShots
 ![Alt text](screenshot1.png?raw=true "Title")
 ![Alt text](screenshot2.png?raw=true "Title")
-
-
 
 
 ## JSON API Endpoints 
