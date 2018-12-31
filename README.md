@@ -24,8 +24,8 @@ to check if vagrant is succeffully installed, please run
 `$ git clone https://github.com/udacity/fullstack-nanodegree-vm.git  # clone git repository  
 `  
 4.  Download the Football Club Project( THIS )   
-`$ git clone https://github.com/iYassr/FootballClub.git`  
-move folder 'FootballClub' into ' the cloned folder 'vagrant' - step 4 -   
+`$ git clone https://github.com/iYassr/FootballProject.git`  
+move folder 'FootballProject' into ' the cloned folder 'vagrant' - step 4 -   
 
 6. Run Vagrant Instance and SSH to it  
 ```
@@ -33,6 +33,8 @@ $ cd vagrant # cd to the cloned project folder
 $ vagrant up # wait until finished, it might take more that few minitus  
 $ vagrant ssh # ssh to the already configured vm  
 $ cd /vagrant  
+$ pip3 install requests
+$ pip3 install oauth2client
 ```
 
 ### Running 
