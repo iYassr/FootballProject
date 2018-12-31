@@ -22,7 +22,8 @@ APPLICATION_NAME = "FootballClubs"
 
 
 # Connect to Database and create database session
-engine = create_engine('sqlite:///Clubs.db?check_same_thread=false', poolclass=SingletonThreadPool)
+engine = create_engine(
+    'sqlite:///Clubs.db?check_same_thread=false', poolclass=SingletonThreadPool)
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
@@ -180,7 +181,7 @@ def gdisconnect():
         return response
 
 
-# JSON APIs to view Club Information
+# JSON APIs to view Players Information
 @app.route('/Club/<int:club_id>/player/JSON')
 def ClubPlayerJSON(club_id):
     club = session.query(Club).filter_by(id=club_id).one()
@@ -189,12 +190,14 @@ def ClubPlayerJSON(club_id):
     return jsonify(players=[i.serialize for i in items])
 
 
+# JSON APIs to view player Information
 @app.route('/Club/<int:club_id>/player/<int:player_id>/JSON')
 def playerJSON(club_id, player_id):
     player = session.query(Player).filter_by(id=player_id).one()
     return jsonify(player=player.serialize)
 
 
+# JSON APIs to view list all clubs
 @app.route('/Club/JSON')
 def ClubsJSON():
     clubs = session.query(Club).all()
@@ -207,13 +210,11 @@ def ClubsJSON():
 def showClubs():
     clubs = session.query(Club).all()
     if 'username' not in login_session:
-        return render_template('publicClubs.html', clubs=clubs)
+        return render_template('Clubs.html', clubs=clubs)
     else:
         return render_template('Clubs.html', clubs=clubs)
 
 # Create a new Club
-
-
 @app.route('/Club/new/', methods=['GET', 'POST'])
 def newClub():
     if 'username' not in login_session:
@@ -300,8 +301,6 @@ def newPlayer(club_id):
         return render_template('newPlayer.html', club_id=club_id)
 
 # Edit Player
-
-
 @app.route('/Club/<int:club_id>/player/<int:player_id>/edit', methods=['GET', 'POST'])
 def editPlayer(club_id, player_id):
     if 'username' not in login_session:
@@ -366,6 +365,6 @@ def disconnect():
 
 
 if __name__ == '__main__':
-    app.secret_key = 'super_secret_key'
+    app.secret_key = 'donottellanyone'
     app.debug = True
     app.run(host='0.0.0.0', port=5000)

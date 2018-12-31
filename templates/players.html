@@ -56,7 +56,7 @@
 					<th scope="row">{{loop.index}}</th>
 					<td>{{player.name}}</td>
 					<td>{{player.age}}</td>
-					<td><img src='/static/{{player.nationality}}.png' onerror="this.src='/static/random_flag.png'" </td> <td>{{player.market_value}}$</td>
+					<td><img src='/static/{{player.nationality}}.png' width="20px" height="12px"  onerror="this.src='/static/random_flag.png'" </td> <td>{{player.market_value}}$</td>
 					<td>{% if player.position == '1' %} Forward {% elif player.position == '2' %} Midfielder {% elif player.position
 						== '3' %} Defender {% elif player.position == '4' %} Goal Keeper {% endif %}</td>
 					<td><a href='{{url_for('editPlayer', club_id = club.id, player_id=player.id ) }}'>Edit</a> |
