@@ -215,6 +215,8 @@ def showClubs():
         return render_template('Clubs.html', clubs=clubs)
 
 # Create a new Club
+
+
 @app.route('/Club/new/', methods=['GET', 'POST'])
 def newClub():
     if 'username' not in login_session:
@@ -301,6 +303,8 @@ def newPlayer(club_id):
         return render_template('newPlayer.html', club_id=club_id)
 
 # Edit Player
+
+
 @app.route('/Club/<int:club_id>/player/<int:player_id>/edit', methods=['GET', 'POST'])
 def editPlayer(club_id, player_id):
     if 'username' not in login_session:
